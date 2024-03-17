@@ -1,0 +1,35 @@
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+
+body {
+    font: var(--font-m);
+}
+
+.app {
+    background: var(--bg-color);
+    min-height: 100vh;
+    color: var(--text-color);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.my-10 {
+    margin: 10px 0;
+}

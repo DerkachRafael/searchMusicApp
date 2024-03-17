@@ -1,0 +1,25 @@
+.Stations {
+    margin: 20px auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.StationItem {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    box-shadow: 0 0 3px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.audio {
+    margin-top: auto;
+    width: 100%;
+}
